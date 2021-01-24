@@ -9,3 +9,7 @@ def inbounds?(index)
   return index >= 0 && index < 9
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+index = 0
+puts position_taken(board, index)
+puts inbounds(index)
