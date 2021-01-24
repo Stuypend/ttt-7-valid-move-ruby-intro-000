@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-  return !position_taken(board, index) && inbounds?(index)
+  return !position_taken?(board, index) && inbounds?(index)
 end
 def position_taken?(board, index)
   return !(board[index] == "" || board[index] == " " || board[index] == nil)
