@@ -13,4 +13,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
 puts position_taken?(board, index)
 puts inbounds?(index)
-puts valid_move(board, index)
+puts valid_move?(board, index)
